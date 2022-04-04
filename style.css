@@ -1,0 +1,39 @@
+.game-field {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  filter: drop-shadow(0px 4px 20px rgba(44, 57, 121, 0.35));
+  gap: 4px;
+  width: min-content;
+}
+
+.game-field_cell {
+  background: #FFFFFF;
+  border-radius: 12px;
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.size-input {
+  padding: 12px 20px;
+  background: #F7F7F7;
+  border-radius: 12px;
+  margin: 10px auto auto 0px;
+  width: 70px;
+}
+
+.reset-button {
+  padding: 12px 20px;
+  background: #F7F7F7;
+  border-radius: 12px;
+  margin: 10px auto auto auto;
+  width: 100px; 
+}
